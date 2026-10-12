@@ -47,20 +47,24 @@ img {
     min-height: 700px;
     margin: 0 auto;
     overflow: hidden;
-    background: #ff7900;
+    background: #ffffff;
 }
 
+/* orange top bar: 751 x 130 with a rounded bottom-right corner */
 #header {
     position: relative;
-    height: 140px;
+    width: 751px;
+    height: 130px;
     background: #ff7900;
+    border-radius: 0 0 12px 0;
 }
 
+/* logo sits above the orange bar and the left bar */
 .header-logo {
     float: left;
     position: relative;
-    width: 180px;
-    height: 140px;
+    width: 150px;
+    height: 130px;
     z-index: 10;
 }
 
@@ -71,113 +75,129 @@ img {
 
 .header-main {
     float: left;
-    width: 360px;
-    height: 140px;
+    width: 387px;
+    height: 130px;
 }
 
 .site-title {
-    height: 36px;
-    padding-left: 15px;
+    height: 35px;
+    overflow: hidden;
     background: #17176d;
-    border-bottom: 2px solid #ffffff;
-    line-height: 34px;
-    white-space: nowrap;
 }
 
 .site-title img {
-    display: block;
+    float: right;
     width: 345px;
     height: auto;
-    padding-top: 1px;
+    margin: 1px 39px 0 0;
 }
 
 .site-description {
-    height: 76px;
-    padding: 4px 10px;
+    height: 79px;
+    padding: 0 3px 0 0;
     background: #ff7900;
     color: #ffffff;
     text-align: right;
+    white-space: nowrap;
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 1px;
 }
 
 .header-date {
-    height: 28px;
-    padding-top: 4px;
+    height: 16px;
+    padding-right: 3px;
     background: #ff7900;
     color: #ffffff;
     text-align: right;
-    padding-right: 10px;
     font-size: 12px;
+    line-height: 15px;
     letter-spacing: 1px;
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid #17176d;
 }
 
 .header-tools {
     float: left;
-    width: 240px;
-    height: 140px;
+    width: 214px;
+    height: 130px;
     background: #ff7900;
-    border-left: 1px solid #ffffff;
+    border-left: 1px solid #17176d;
 }
 
 .tool-links {
-    height: 53px;
-    text-align: center;
+    height: 52px;
+    padding-left: 3px;
+    overflow: hidden;
     white-space: nowrap;
+    border-bottom: 1px solid #17176d;
 }
 
 .tool-links a {
-    display: inline-block;
-    width: 76px;
-    height: 52px;
-    padding-top: 0;
-    font-size: 31px;
-    line-height: 30px;
-    border-bottom: 1px solid #ffffff;
+    float: left;
+    width: 70px;
+    height: 51px;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
-.tool-links a img {
-    width: 76px;
+/* only the arc + glyph part of the icon is shown, the caption is text */
+.tool-icon {
+    display: block;
+    height: 36px;
+    overflow: hidden;
+}
+
+.tool-icon img {
+    width: 84px;
     height: auto;
+    margin-left: -6px;
 }
 
 .search {
     position: relative;
-    height: 87px;
-    padding: 5px 8px;
+    height: 77px;
+    padding: 4px 0 0 7px;
 }
 
 .search label {
     display: block;
-    color: #17176d;
+    color: #ffffff;
     font-weight: bold;
-    font-size: 10px;
-    margin-bottom: 3px;
+    font-size: 11px;
+    line-height: 12px;
 }
 
 .search input {
-    width: 150px;
-    height: 20px;
-    border: 1px solid #222222;
+    position: absolute;
+    top: 19px;
+    right: 6px;
+    width: 151px;
+    height: 18px;
+    padding: 0 2px;
+    border: 1px solid #000000;
     background: #ffffff;
 }
 
 .search button {
     position: absolute;
-    right: 6px;
-    bottom: 4px;
+    top: 44px;
+    right: 4px;
     width: 67px;
     height: 37px;
     padding: 0;
     border: 0;
-    border-radius: 50%;
-    background: #ff7900;
+    background: none;
     color: #ffffff;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.search button img {
+    width: 67px;
+    height: 37px;
 }
 
 /* =========================================================
@@ -185,29 +205,34 @@ img {
    ========================================================= */
 
 #body {
-    background: #ff7900;
+    overflow: hidden;
+    background: #ffffff;
 }
 
+/* orange left bar, stretches down to the bottom of the page */
 #sidebar {
     float: left;
     width: 180px;
-    padding-top: 12px;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
     background: #ff7900;
 }
 
 .navigation {
     width: 176px;
     margin-left: 4px;
+    padding-top: 23px;
+    border-left: 1px solid #17176d;
+    border-bottom: 1px solid #17176d;
 }
 
 .navigation a {
     display: block;
     height: 18px;
-    padding: 0 4px 0 14px;
-    background: #ff7900 url(../img/Marker.png) no-repeat 3px 4px;
-    background-size: 7px 10px;
+    padding: 0 4px 0 11px;
+    background: #ff7900 url(../img/Marker.png) no-repeat 2px 3px;
+    background-size: 8px 11px;
     border-top: 1px solid #17176d;
-    border-bottom: 1px solid #17176d;
     color: #ffffff;
     font-size: 12px;
     font-weight: bold;
@@ -222,12 +247,13 @@ img {
     margin-left: 4px;
     padding: 0 5px 8px;
     background: #ffffff;
-    border: 2px solid #ffffff;
+    border: 1px solid #ffffff;
 }
 
 .spotlight-title {
-    height: 37px;
-    margin: 0 -7px 8px;
+    height: 31px;
+    margin: 0 -5px 6px;
+    overflow: hidden;
     background: #ff7900;
     color: #ffffff;
     text-align: center;
@@ -237,14 +263,15 @@ img {
 }
 
 .spotlight-title img {
-    width: 100%;
+    width: 149px;
     height: auto;
+    margin: 2px 0 0 2px;
 }
 
 .spotlight-image {
-    width: 145px;
+    width: 138px;
     height: auto;
-    margin: 0 auto 7px;
+    margin: 0 0 7px 1px;
 }
 
 .spotlight-text {
@@ -259,26 +286,27 @@ img {
 
 #content {
     float: left;
-    width: 560px;
+    width: 559px;
     min-height: 560px;
-    margin-top: 0;
-    margin-left: 12px;
+    margin-top: 10px;
+    margin-left: 13px;
     background: #ffffff;
     border: 1px solid #17176d;
 }
 
 .content-heading {
-    height: 19px;
-    padding: 2px 8px;
+    height: 16px;
+    padding: 0 7px;
     background: #17176d;
     color: #ffffff;
     font-size: 12px;
     font-weight: bold;
+    line-height: 16px;
     letter-spacing: 1px;
 }
 
 .article {
-    min-height: 385px;
+    min-height: 392px;
     padding: 7px 8px 8px;
     border-bottom: 1px solid #17176d;
     color: #111111;
@@ -301,9 +329,9 @@ img {
 
 .article-image {
     float: right;
-    width: 261px;
-    height: 320px;
-    margin: 2px 6px 5px 15px;
+    width: 200px;
+    height: auto;
+    margin: 2px 34px 5px 15px;
 }
 
 .second-article {
