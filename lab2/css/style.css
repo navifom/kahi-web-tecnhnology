@@ -55,7 +55,7 @@ img {
     position: relative;
     width: 751px;
     height: 130px;
-    background: #ff7900;
+    background: #ff7e09;
     border-radius: 0 0 12px 0;
 }
 
@@ -84,7 +84,7 @@ img {
 .site-title {
     height: 35px;
     overflow: hidden;
-    background: #17176d;
+    background: #1a1a81;
 }
 
 .site-title img {
@@ -97,7 +97,7 @@ img {
 .site-description {
     height: 79px;
     padding: 0 3px 0 0;
-    background: #ff7900;
+    background: #ff7e09;
     color: #ffffff;
     text-align: right;
     white-space: nowrap;
@@ -109,21 +109,21 @@ img {
 .header-date {
     height: 16px;
     padding-right: 3px;
-    background: #ff7900;
+    background: #ff7e09;
     color: #ffffff;
     text-align: right;
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 1px;
-    border-top: 1px solid #17176d;
+    border-top: 1px solid #1a1a81;
 }
 
 .header-tools {
     float: left;
     width: 214px;
     height: 130px;
-    background: #ff7900;
-    border-left: 1px solid #17176d;
+    background: #ff7e09;
+    border-left: 1px solid #1a1a81;
 }
 
 .tool-links {
@@ -131,7 +131,7 @@ img {
     padding-left: 0;
     overflow: hidden;
     white-space: nowrap;
-    border-bottom: 1px solid #17176d;
+    border-bottom: 1px solid #1a1a81;
 }
 
 .tool-links a {
@@ -242,24 +242,24 @@ img {
     width: 180px;
     padding-bottom: 9999px;
     margin-bottom: -9999px;
-    background: #ff7900;
+    background: #ff7e09;
 }
 
 .navigation {
     width: 176px;
     margin-left: 4px;
     padding-top: 23px;
-    border-left: 1px solid #17176d;
-    border-bottom: 1px solid #17176d;
+    border-left: 1px solid #1a1a81;
+    border-bottom: 1px solid #1a1a81;
 }
 
 .navigation a {
     display: block;
     height: 18px;
     padding: 0 4px 0 11px;
-    background: #ff7900 url(../img/Marker.png) no-repeat 2px 3px;
+    background: #ff7e09 url(../img/Marker.png) no-repeat 2px 3px;
     background-size: 8px 11px;
-    border-top: 1px solid #17176d;
+    border-top: 1px solid #1a1a81;
     color: #ffffff;
     font-size: 12px;
     font-weight: bold;
@@ -281,7 +281,7 @@ img {
     height: 31px;
     margin: 0 -5px 6px;
     overflow: hidden;
-    background: #ff7900;
+    background: #ff7e09;
     color: #ffffff;
     text-align: center;
     font-size: 12px;
@@ -318,13 +318,13 @@ img {
     margin-top: 10px;
     margin-left: 13px;
     background: #ffffff;
-    border: 1px solid #17176d;
+    border: 1px solid #1a1a81;
 }
 
 .content-heading {
     height: 16px;
     padding: 0 7px;
-    background: #17176d;
+    background: #1a1a81;
     color: #ffffff;
     font-size: 12px;
     font-weight: bold;
@@ -335,7 +335,7 @@ img {
 .article {
     min-height: 392px;
     padding: 7px 8px 8px;
-    border-bottom: 1px solid #17176d;
+    border-bottom: 1px solid #1a1a81;
     color: #111111;
     font-size: 12px;
     line-height: 15px;
@@ -344,7 +344,7 @@ img {
 
 .article h1 {
     margin: 0 0 9px;
-    color: #17176d;
+    color: #1a1a81;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 1px;
@@ -379,7 +379,7 @@ img {
 }
 
 .text-link {
-    color: #17176d;
+    color: #1a1a81;
     text-decoration: underline;
 }
 
@@ -398,7 +398,7 @@ img {
     float: left;
     width: 90px;
     padding-top: 3px;
-    color: #17176d;
+    color: #1a1a81;
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -409,7 +409,7 @@ img {
     width: 160px;
     height: 20px;
     padding: 0 3px;
-    border: 1px solid #17176d;
+    border: 1px solid #1a1a81;
     background: #ffffff;
     color: #111111;
     font-family: inherit;
@@ -433,8 +433,8 @@ img {
     width: 80px;
     height: 22px;
     margin-left: 90px;
-    border: 1px solid #17176d;
-    background: #ff7900;
+    border: 1px solid #1a1a81;
+    background: #ff7e09;
     color: #ffffff;
     font-weight: bold;
     cursor: pointer;
@@ -448,7 +448,7 @@ img {
 .message-error,
 .message-ok {
     padding: 6px 8px;
-    border: 1px solid #17176d;
+    border: 1px solid #1a1a81;
 }
 
 .message-error {
