@@ -69,14 +69,16 @@ img {
 }
 
 .header-logo img {
-    width: 180px;
-    height: auto;
+    width: 175px;
+    height: 145px;
 }
 
+/* starts under the logo, so the blue lines run behind it */
 .header-main {
     float: left;
-    width: 387px;
+    width: 407px;
     height: 130px;
+    margin-left: -20px;
 }
 
 .site-title {
@@ -126,7 +128,7 @@ img {
 
 .tool-links {
     height: 52px;
-    padding-left: 3px;
+    padding-left: 0;
     overflow: hidden;
     white-space: nowrap;
     border-bottom: 1px solid #17176d;
@@ -136,9 +138,10 @@ img {
     float: left;
     width: 70px;
     height: 51px;
+    margin-left: 0;
     font-size: 9px;
     line-height: 11px;
-    letter-spacing: 1px;
+    letter-spacing: 1.4px;
     text-align: center;
 }
 
@@ -150,9 +153,33 @@ img {
 }
 
 .tool-icon img {
-    width: 84px;
+    width: 80px;
     height: auto;
-    margin-left: -6px;
+}
+
+.tool-links .tool-help {
+    width: 80px;
+}
+
+.tool-links .tool-help img {
+    margin-left: 3px;
+}
+
+.tool-links .tool-about {
+    width: 66px;
+}
+
+.tool-links .tool-about img {
+    margin-left: -12px;
+}
+
+.tool-links .tool-contact {
+    width: 66px;
+    padding-left: 4px;
+}
+
+.tool-links .tool-contact img {
+    margin-left: -12px;
 }
 
 .search {
