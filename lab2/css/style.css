@@ -355,6 +355,7 @@ img {
 }
 
 .article-image {
+    position: relative;
     float: right;
     width: 200px;
     height: auto;
@@ -367,4 +368,95 @@ img {
 
 .clear {
     clear: both;
+}
+
+/* =========================================================
+   page-specific styles (calc.html, redirect.html)
+   ========================================================= */
+
+.short-article {
+    min-height: 160px;
+}
+
+.text-link {
+    color: #17176d;
+    text-decoration: underline;
+}
+
+.calc-form {
+    margin: 0 0 12px;
+}
+
+.form-row {
+    float: left;
+    clear: left;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.form-row label {
+    float: left;
+    width: 90px;
+    padding-top: 3px;
+    color: #17176d;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.form-row input,
+.form-row select {
+    float: left;
+    width: 160px;
+    height: 20px;
+    padding: 0 3px;
+    border: 1px solid #17176d;
+    background: #ffffff;
+    color: #111111;
+    font-family: inherit;
+    font-size: 12px;
+}
+
+.form-row select {
+    height: 22px;
+}
+
+.form-row-off label {
+    color: #999999;
+}
+
+.form-row-off input {
+    background: #eeeeee;
+    border-color: #999999;
+}
+
+.form-buttons input {
+    width: 80px;
+    height: 22px;
+    margin-left: 90px;
+    border: 1px solid #17176d;
+    background: #ff7900;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.message {
+    padding: 0;
+    font-weight: bold;
+}
+
+.message-error,
+.message-ok {
+    padding: 6px 8px;
+    border: 1px solid #17176d;
+}
+
+.message-error {
+    background: #fff0e0;
+    color: #b00000;
+}
+
+.message-ok {
+    background: #e8f4e8;
+    color: #006000;
 }
